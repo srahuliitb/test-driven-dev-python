@@ -4,6 +4,17 @@
   </head>
   <body>
     <h1 class="data-test-heading">Named Entity Finder</h1>
-    <input type="text" class="data-test-input-text" placeholder="some input text">
+    <input id="input-text" class="form-control data-test-input-text" placeholder="some input text">
+    <button id="find-button" type="button" class="btn btn-outline-primary data-test-input-text-button">Find Named Entities</button>
+    <table id="ner-table"" class="table table-bordered data-test-ner-table">
+      <thead class="thead dark">
+        <tr>
+          <th>Entity</th>
+          <th>Type</th>
+        </tr>
+      </thead>
+      <tbody> 
+      </tbody>
+    </table>
   </body>
 </html>
